@@ -1,5 +1,5 @@
 {
-  "name": "Kay-Userbot",
+  "name": "WykesX-Userbot",
   "description": "USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/950d5fe4dd1dbe1726f5e.jpg",
   "keywords": [
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Kayzyu/Kayzu-Ubot/Kayzu-Ubot",
-  "telegram": "https://t.me/Kayzuuuuu",
-  "success_url": "https://t.me/kayzuchannel",
+  "repository": "https://github.com/Wykesx/WykesX-Ubot/WykesX-Ubot",
+  "telegram": "https://t.me/Wykesx",
+  "success_url": "https://t.me/zezanx",
   "stack": "container",
   "env": {
     "API_KEY": {
