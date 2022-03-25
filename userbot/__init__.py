@@ -117,7 +117,7 @@ DEVS = (
 )
 
 
-# Blacklist User for use Kay-Userbot
+# Blacklist User for use WykesX-Userbot
 while 0 < 6:
     _BLACKLIST = get(
         "https://raw.githubusercontent.com/muhammadrizky16/Kyyblack/master/kyyblacklist.json"
@@ -184,9 +184,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Kayzyu/Kayzu-Ubot")
+    "https://github.com/Wykesx/WykesX-Ubot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kayzu-Ubot")
+    "UPSTREAM_REPO_BRANCH", "WykesX-Ubot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -302,8 +302,8 @@ INLINE_PIC = os.environ.get(
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
 
-# °Kay-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Kayzuuuuu"
+# °WykesX-Userbot°
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Wykesx"
 
 DEFAULT = list(map(int, b64decode("MTkwNDc5MTMzOA==").split()))
 
@@ -492,7 +492,7 @@ with bot:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Kay-Userbot v{BOT_VER} is back up and running!**\n\n"
+        f"**WykesX-Userbot v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {owner}"
@@ -604,7 +604,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**✨ ҡᴧʏ-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**✨ WykesX-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -612,7 +612,7 @@ with bot:
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik { @Wykesx }"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.NewMessage(incoming=True,
@@ -709,15 +709,15 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Kay-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Kay-Ex](https://t.me/Kayzuuuuu)\n✣ **sᴜᴘᴘᴏʀᴛ :** @KayzuSupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Kay-Userbot](https://github.com/Kayzyu/Kayzu-Ubot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**WykesX-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [@Wykesx](https://t.me/Wykesx)\n✣ **sᴜᴘᴘᴏʀᴛ :** @WykesxSupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [WykesX-Userbot](https://github.com/Wykesx/WykesX-Ubot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/KayzuSupport"),
+                                "https://t.me/WykesxSupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Kayzyu/Kayzu-Ubot"),
+                                "https://github.com/Wykesx/WykesX-Ubot"),
                         ],
                     ],
                     link_preview=False,
@@ -756,23 +756,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ҡᴧʏ-υѕєявσт ✨",
-                    description="Kay - Userbot | Telethon",
-                    url="https://t.me/KayXChannel",
+                    title="✨ WykesX-υѕєявσт ✨",
+                    description="WykesX - Userbot | Telethon",
+                    url="https://t.me/zezanx",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Kay-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @KayXChannel\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**WykesX-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_ @Wykesx }](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {kay104815ubot}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @zezanx\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/KayzuSupport"),
+                                "https://t.me/WykesxSupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/Kayzyu/Kayzu-Ubot"),
+                                "https://github.com/Wykesx/WykesX-Ubot"),
                         ],
                     ],
                     link_preview=False,
